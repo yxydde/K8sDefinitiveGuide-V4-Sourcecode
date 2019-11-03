@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<html>
+<head>
+    <title>Spring Boot K8S Demo</title>
+</head>
+
+<body>
+  <h3>APP_VERSION</h3>
+    <p th:utext="${app_version}"/>
+  <h3>Server NetworkInterfaces: </h3>
+    <p th:utext="${server_ip}"/>
+  <h3>Request Frome: </h3>
+    <p th:text="${request}"/>
+  <h3>Time:</h3>
+    <p th:text="${time}"/>
+  <h3>System Env:</h3>
+    <p th:utext="${sysenv}"/>
+  <h3>System Properties:</h3>
+    <p th:utext="${sysProperties}"/>
+</body>
+</html>

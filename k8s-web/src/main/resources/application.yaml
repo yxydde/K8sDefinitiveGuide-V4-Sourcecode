@@ -1,0 +1,9 @@
+spring:
+  thymeleaf:
+    mode: HTML
+    encoding: UTF-8
+    content-type: text/html
+    cache: false
+    prefix: classpath:/templates
+
+spring.redis.host: 192.168.240.129
